@@ -28,7 +28,7 @@ class TopPanel extends Component {
           <Header style={[fontColors.yellow, { marginBottom: -14 }]}>todos</Header>
           <Subheader style={fontColors.yellow}>
             {activeTodos.length > 0 ? (
-              `You have ${activeTodos.length} unfinished todo(s)`
+              `You have ${activeTodos.length} unfinished todo` + (activeTodos.length > 1 ? 's' : '')
             ) : 'All todos are done!'}
           </Subheader>
         </View>
