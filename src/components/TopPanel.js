@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-import Header from '../Header';
-import Subheader from '../Subheader';
+import Header from './Header';
+import Subheader from './Subheader';
 
-import { colors, fontColors } from '../colors';
+import { colors, fontColors } from './colors';
 
-import { getActiveTodos } from '../../helpers';
+import { getActiveTodos } from '../helpers';
 
 const styles = StyleSheet.create({
   container: {

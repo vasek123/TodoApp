@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import PropTypes from 'prop-types';
 
-import { colors, backgroundColors } from '../colors';
+import { colors, backgroundColors } from './colors';
 
-import TodoText from '../TodoText';
-import TodoButton from '../TodoButton';
+import TodoText from './TodoText';
+import TodoButton from './TodoButton';
 
 const styles = StyleSheet.create({
   todoContainer: {

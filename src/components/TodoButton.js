@@ -3,7 +3,7 @@ import { View, Button, StyleSheet } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import PropTypes from 'prop-types';
 
-import colors from '../colors';
+import colors from './colors';
 
 const styles = StyleSheet.create({
   todoButton: {
